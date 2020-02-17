@@ -103,7 +103,6 @@
 				846437D21F967B6200C584A7 /* Frameworks */,
 				846437D31F967B6200C584A7 /* Resources */,
 				64E321A738EF2B35D459B2D7 /* [CP] Embed Pods Frameworks */,
-				606A80AA0752E9C801DEB61C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,7 +125,7 @@
 				TargetAttributes = {
 					846437D41F967B6200C584A7 = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,28 +162,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		606A80AA0752E9C801DEB61C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnderLineTextField-Example/Pods-UnderLineTextField-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		64E321A738EF2B35D459B2D7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UnderLineTextField-Example/Pods-UnderLineTextField-Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-UnderLineTextField-Example/Pods-UnderLineTextField-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/UnderLineTextField/UnderLineTextField.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -193,7 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnderLineTextField-Example/Pods-UnderLineTextField-Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnderLineTextField-Example/Pods-UnderLineTextField-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A7C391F287276B45E569439E /* [CP] Check Pods Manifest.lock */ = {
@@ -372,7 +356,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mohammadalijf.UnderLineTextField-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -389,7 +373,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mohammadalijf.UnderLineTextField-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
